@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .entete img {
   width: 15%;
   display: flex;
@@ -18,11 +19,13 @@
   padding: 2rem 45rem 0rem 0rem;
   margin: auto;
 }
+
 .entete p {
   display: flex;
   margin: auto;
   padding: 1rem 74rem 1rem 0rem;
 }
+
 .position {
   display: flex;
   align-items: center;
@@ -49,7 +52,6 @@
   margin: -65px -6px -2px 480px;
   height: 4rem;
   border-radius: 0px 23px 27px 1px;
-
   color: white;
 }
 
@@ -62,29 +64,25 @@
 
 .formulaire i {
   background: #f2f2f2;
-
   margin: 23px 0px -78px 2px;
   border-radius: 10px 0px 0px 10px;
   width: 0px;
   font-size: 17px;
-
   padding: 25px 46px 23px 31px;
 }
 
 .filtres {
   display: flex;
 }
+
 .filtres h2 {
   display: flex;
-
   flex-direction: column;
-
   padding: 2rem 5rem 0rem 1rem;
 }
 
 .filtre-1 {
   display: flex;
-
   margin: 4rem 1rem 2rem 1rem;
   border: solid 2px #f2f2f2;
   border-radius: 999px;
@@ -154,6 +152,7 @@
   background-color: #deebff;
   color: #0065fc;
 }
+
 .filtres button {
   width: 6rem;
   border-radius: 999px;
@@ -179,6 +178,7 @@
   background-color: #deebff;
   color: #0065fc;
 }
+
 .filtres button {
   width: 6rem;
   border-radius: 999px;
@@ -187,7 +187,6 @@
 }
 
 /************************************ Partie hebergement à Marseille*******************************************/
-
 #hebergement-mar {
   display: flex;
 }
@@ -200,8 +199,7 @@
   border-radius: 15px 15px 15px 15px;
 }
 
-.herber-mar a{
-
+.herber-mar a {
   text-decoration: none;
   color: black;
 }
@@ -229,19 +227,16 @@
   border-radius: 20px 20px 0px 0px;
   height: 137px;
   padding: 2px 0px 7px 3px;
- transition: 1s ease-in-out;
- 
- 
+  transition: 1s ease-in-out;
 }
+
 .auberge img:hover {
--webkit-transform: scale(1);
-transform: scale(1);
-height: 64%;
-border-radius: 20px 20px 20px 20px;
-width: 100%;
-margin: -2px 0px 60px -3px;
- 
-  
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 64%;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  margin: -2px 0px 60px -3px;
 }
 
 .auberge h2 {
@@ -250,12 +245,12 @@ margin: -2px 0px 60px -3px;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
+
 .auberge p {
   display: flex;
   margin: 0rem 0rem 0rem 1rem;
   font-family: "Open Sans", sans-serif;
 }
-
 
 .etoile-1 {
   display: flex;
@@ -276,7 +271,6 @@ margin: -2px 0px 60px -3px;
   margin: -14rem 0rem 2rem 18rem;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 2px 5px 10px -5px gray;
-  
 }
 
 .hotel-port img {
@@ -289,14 +283,12 @@ margin: -2px 0px 60px -3px;
 }
 
 .hotel-port img:hover {
- -webkit-transform: scale(1.3);
- transform: scale(1);
- height: 81%;
- border-radius: 20px 20px 20px 20px;
- width: 100%;
- margin: -3px 0px 31px -3px;
-      
-
+  -webkit-transform: scale(1.3);
+  transform: scale(1);
+  height: 81%;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  margin: -3px 0px 31px -3px;
 }
 
 .hotel-port h2 {
@@ -305,6 +297,7 @@ margin: -2px 0px 60px -3px;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
+
 .hotel-port p {
   display: flex;
   margin: 0rem 0rem 0rem 1rem;
@@ -336,14 +329,14 @@ margin: -2px 0px 60px -3px;
   padding: 2px 0px 7px 3px;
   transition: 1s ease-in-out;
 }
-.mouette img:hover {
--webkit-transform: scale(1);
-transform: scale(1);
-height: 92%;
-border-radius: 20px 20px 20px 20px;
-width: 100%;
-margin: -3px 0px 20px -3px;
 
+.mouette img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 92%;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  margin: -3px 0px 20px -3px;
 }
 
 .mouette h2 {
@@ -352,6 +345,7 @@ margin: -3px 0px 20px -3px;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
+
 .mouette p {
   display: flex;
   margin: 0rem 0rem 0rem 1rem;
@@ -374,24 +368,23 @@ margin: -3px 0px 20px -3px;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 2px 5px 10px -5px gray;
 }
+
 .mers img {
- 
-   width: 98%;
-   display: flex;
-   border-radius: 20px 20px 0px 0px;
-   height: 137px;
-   padding: 2px 0px 7px 3px;
-   transition: 1s ease-in-out;
-  
+  width: 98%;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  height: 137px;
+  padding: 2px 0px 7px 3px;
+  transition: 1s ease-in-out;
 }
 
 .mers img:hover {
--webkit-transform: scale(1);
-transform: scale(1);
-height: 85%;
-border-radius: 20px 20px 20px 20px;
-width: 100%;
-margin: -23px 0px 21px -3px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 85%;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  margin: -23px 0px 21px -3px;
 }
 
 .mers h2 {
@@ -400,6 +393,7 @@ margin: -23px 0px 21px -3px;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
+
 .mers p {
   display: flex;
   margin: 0rem 0rem 0rem 1rem;
@@ -422,6 +416,7 @@ margin: -23px 0px 21px -3px;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 2px 5px 10px -5px gray;
 }
+
 .panier img {
   width: 98%;
   display: flex;
@@ -430,21 +425,23 @@ margin: -23px 0px 21px -3px;
   padding: 2px 0px 7px 3px;
   transition: 1s ease-in-out;
 }
+
 .panier img:hover {
--webkit-transform: scale(1);
-transform: scale(1);
-height: 85%;
-border-radius: 20px 20px 20px 20px;
-width: 100%;
-margin: -23px 0px 21px -3px;
-  
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 85%;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  margin: -23px 0px 21px -3px;
 }
+
 .panier h2 {
   display: flex;
   margin: 0rem 0rem 0rem -2rem;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
+
 .panier p {
   display: flex;
   margin: 0rem 0rem 0rem 1rem;
@@ -467,6 +464,7 @@ margin: -23px 0px 21px -3px;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 2px 5px 10px -5px gray;
 }
+
 .amina img {
   width: 98%;
   display: flex;
@@ -477,20 +475,20 @@ margin: -23px 0px 21px -3px;
 }
 
 .amina img:hover {
--webkit-transform: scale(1);
-transform: scale(1);
-height: 85%;
-border-radius: 20px 20px 20px 20px;
-width: 100%;
-margin: -23px 0px 21px -3px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 85%;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  margin: -23px 0px 21px -3px;
 }
+
 .amina h2 {
   display: flex;
   margin: 0rem 0rem 0rem -2rem;
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
-
 
 .amina p {
   display: flex;
@@ -521,7 +519,6 @@ margin: -23px 0px 21px -3px;
 }
 
 /********************Partie Activités à Marseille*********************/
-
 #activite {
   display: flex;
   flex-direction: column;
@@ -625,7 +622,6 @@ margin: -23px 0px 21px -3px;
 
 .calanque p {
   display: flex;
-
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -809,449 +805,362 @@ margin: -23px 0px 21px -3px;
 }
 
 /********************Partie FOOTER**********************/
-
-.foot{
-
+.foot {
   display: flex;
   background-color: #f2f2f2;
   margin: 34rem 0rem 0rem 0rem;
   height: 13rem;
-  font-family: "Open Sans",
-  sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
 
-.a-propos{
-display: flex;
-flex-direction: column;
-margin: 30px 0px 0px 41px;
-
-
+.a-propos {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 0px 41px;
 }
 
-.a-propos p{
-padding: 1rem 0rem 0rem 0rem;
-line-height: 40px;
-
+.a-propos p {
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 40px;
 }
 
 .hebergements {
   display: flex;
   flex-direction: column;
   margin: 30px 0px 0px 170px;
-
-
 }
 
 .hebergements p {
   padding: 1rem 0rem 0rem 0rem;
   line-height: 40px;
-
 }
 
 .assistances {
- display: flex;
- flex-direction: column;
- margin: 34px 0px 0px 223px;
-
-
+  display: flex;
+  flex-direction: column;
+  margin: 34px 0px 0px 223px;
 }
 
 .assistances p {
   padding: 1rem 0rem 0rem 0rem;
   line-height: 40px;
-
 }
 
-
 @media screen and (min-width: 360px) and (max-width: 767px) {
- 
-  .entete{
-
-display: flex;
-flex-direction: column;
-margin: auto;
+  .entete {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
-  .entete img,h1,p{
-
+  .entete img,
+  h1,
+  p {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 100%;
-    
   }
 
-  .position{
-
+  .position {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: auto;
   }
 
-  .formulaire{
-
+  .formulaire {
     display: flex;
     margin: auto;
-
   }
 
-  .formulaire i{
-
+  .formulaire i {
     display: flex;
     margin: 1rem 0rem -4rem 1rem;
     ;
   }
 
-  .champs{
-
-   display: flex;
-   margin: -1px 10px 9px 92px;
-   width: 242px;
+  .champs {
+    display: flex;
+    margin: -1px 10px 9px 92px;
+    width: 242px;
   }
 
-  .bouton{
-
+  .bouton {
     display: flex;
     margin: -74px 0px 12px 286px;
     width: 5rem;
   }
 
-  .filtres{
-
+  .filtres {
     display: flex;
     flex-direction: column;
     margin: auto;
-    
-    
     line-height: 0rem;
-    
   }
 
-  .filtre-1{
-display: flex;
-margin: 35px 0px -40px 16px;
-
+  .filtre-1 {
+    display: flex;
+    margin: 35px 0px -40px 16px;
   }
-  .filtre-2{
+
+  .filtre-2 {
     display: flex;
     margin: 60px 0px -40px 16px;
   }
 
-  .filtre-3{
-
+  .filtre-3 {
     margin: 60px 0px -40px 16px;
     display: flex;
   }
 
-  #herbergement-mar{
-
+  #herbergement-mar {
     display: flex;
     flex-direction: column;
   }
 
-  .herber-mar{
-display: flex;
-flex-direction: column;
-margin: auto;
-width: 26rem;
-height: 107rem;
-
+  .herber-mar {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 26rem;
+    height: 107rem;
   }
 
-  .auberge{
-display: flex;
-flex-direction: column;
-margin: 2rem 0rem 0rem 6rem;
-
+  .auberge {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem 0rem 6rem;
   }
-  .hotel-port{
 
+  .hotel-port {
     display: flex;
     flex-direction: column;
     margin: 3rem 0rem 0rem 6rem;
   }
 
-  .mouette{
-
-    display: flex;
-    flex-direction: column;
-    margin: 3rem 0rem 0rem 6rem;
-  }
-  
-  .mers{
-
+  .mouette {
     display: flex;
     flex-direction: column;
     margin: 3rem 0rem 0rem 6rem;
   }
 
-  .panier{
-
+  .mers {
     display: flex;
     flex-direction: column;
     margin: 3rem 0rem 0rem 6rem;
   }
 
-  .amina{
-
+  .panier {
     display: flex;
     flex-direction: column;
     margin: 3rem 0rem 0rem 6rem;
   }
 
-  #activite h2{
-
-   margin: -1rem 0rem 2rem 2rem;
+  .amina {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 0rem 6rem;
   }
 
-  .vieux-port{
-display: flex;
-margin: -55px 55px;
-width: 71%;
-height: 15rem;
-
+  #activite h2 {
+    margin: -1rem 0rem 2rem 2rem;
   }
 
-.vieux-port img{
-display: flex;
-flex-direction: column;
-
-width: 100%;
-height: 75%;
-
-}
-
-.vieux-port p{
-
-  padding: 1rem 0rem 5rem 5rem;
-}
-
-.fort{
-display: flex;
-margin: 90px 55px;
-width: 71%;
-height: 15rem;
-
-}
-
-.fort img{
-
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 100%;
-  height: 75%;
-}
-  .fort p{
-
-   padding: 1rem 0rem 1rem 4rem;
+  .vieux-port {
+    display: flex;
+    margin: -55px 55px;
+    width: 71%;
+    height: 15rem;
   }
 
-  .ile{
-display: flex;
-margin: -50px 62px;
-width: 71%;
-height: 15rem;
-
-
+  .vieux-port img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
   }
 
-  .ile img{
-display: flex;
-flex-direction: column;
-margin: auto;
-width: 100%;
-height: 75%;
-
+  .vieux-port p {
+    padding: 1rem 0rem 5rem 5rem;
   }
 
-  .ile p{
+  .fort {
+    display: flex;
+    margin: 90px 55px;
+    width: 71%;
+    height: 15rem;
+  }
 
+  .fort img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 75%;
+  }
+
+  .fort p {
     padding: 1rem 0rem 1rem 4rem;
   }
 
-  .calanque{
-display: flex;
-margin: 74px 66px;
-width: 71%;
-height: 15rem;
+  .ile {
+    display: flex;
+    margin: -50px 62px;
+    width: 71%;
+    height: 15rem;
+  }
 
+  .ile img {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 75%;
+  }
+
+  .ile p {
+    padding: 1rem 0rem 1rem 4rem;
+  }
+
+  .calanque {
+    display: flex;
+    margin: 74px 66px;
+    width: 71%;
+    height: 15rem;
   }
 
   .calanque img {
-
     height: auto;
   }
 
-  .notre-dame{
-
-        display: flex;
-        margin: -50px 62px;
-        width: 71%;
-        height: 16rem;
+  .notre-dame {
+    display: flex;
+    margin: -50px 62px;
+    width: 71%;
+    height: 16rem;
   }
 
-  .parc{
-
+  .parc {
     display: flex;
     margin: 74px 66px;
     width: 71%;
     height: 16rem;
-
   }
 
-  #populaires{
-
+  #populaires {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 100%;
   }
 
-  .header-populaire{
-display: flex;
-flex-direction: column;
-margin: auto;
-width: 100%;
-
-
+  .header-populaire {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
   }
 
-  .soleil-matin{
-
-display: flex;
-width: 100%;
-margin: auto;
-
+  .soleil-matin {
+    display: flex;
+    width: 100%;
+    margin: auto;
   }
 
-.soleil-matin h2{
-
-  margin: -30px -130px 0px -40px;
-}
-
-.soleil-matin p{
-
-  padding: 8px 0px 0px 70px;
-}
-
-
-.etoile-7{
-
-  margin: 130px 50px 10px -240px;
-  display: flex;
-}
-
-
-.hotes {
-
-  display: flex;
-  width: 100%;
-  margin: auto;
-
-}
-
-.hotes h2 {
-
-  margin: -30px -130px 0px -40px;
-}
-
-.hotes p {
-
-  padding: 8px 0px 0px 70px;
-}
-
-
-.etoile-8 {
-
-  margin: 130px 50px 10px -240px;
-  display: flex;
-}
-
-.hotel-b-b {
-
-  display: flex;
-  width: 100%;
-  margin: auto;
-
-}
-
-.hotel-b-b h2 {
-
-  margin: -31px -130px 0px -42px;
-}
-
-.hotel-b-b p {
-
-  padding: 20px 0px 0px 55px;
+  .soleil-matin h2 {
+    margin: -30px -130px 0px -40px;
   }
 
-
-
-.etoile-9 {
-
-  margin: 130px 50px 10px -240px;
-  display: flex;
-}
-
-.hotel-b-b {
-
-  display: flex;
-  width: 100%;
-  margin: auto;
-
-}
-
-.hotel-b-b h2 {
-
-  margin: -30px -130px 0px -40px;
-}
-
-.hotel-b-b p {
-
-  padding: 8px 0px 0px 70px;
-}
-
-
-.etoile-9 {
-
-  margin: 130px 50px 10px -240px;
-  display: flex;
-}
-
-
-
-  .foot{
-display: flex;
-flex-direction: column;
-margin: 4rem 0rem 0rem 0rem;
-height: 34rem;
-
-width: auto;
-
+  .soleil-matin p {
+    padding: 8px 0px 0px 70px;
   }
 
-  .a-propos{
+  .etoile-7 {
+    margin: 130px 50px 10px -240px;
+    display: flex;
+  }
 
+  .hotes {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .hotes h2 {
+    margin: -30px -130px 0px -40px;
+  }
+
+  .hotes p {
+    padding: 8px 0px 0px 70px;
+  }
+
+  .etoile-8 {
+    margin: 130px 50px 10px -240px;
+    display: flex;
+  }
+
+  .hotel-b-b {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .hotel-b-b h2 {
+    margin: -31px -130px 0px -42px;
+  }
+
+  .hotel-b-b p {
+    padding: 20px 0px 0px 55px;
+  }
+
+  .etoile-9 {
+    margin: 130px 50px 10px -240px;
+    display: flex;
+  }
+
+  .hotel-b-b {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .hotel-b-b h2 {
+    margin: -30px -130px 0px -40px;
+  }
+
+  .hotel-b-b p {
+    padding: 8px 0px 0px 70px;
+  }
+
+  .etoile-9 {
+    margin: 130px 50px 10px -240px;
+    display: flex;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0rem 0rem 0rem;
+    height: 34rem;
+    width: auto;
+  }
+
+  .a-propos {
     display: flex;
     flex-direction: column;
     margin: 1rem 0rem 0rem 6rem;
   }
 
-  .hebergements{
-
+  .hebergements {
     display: flex;
     flex-direction: column;
     margin: 1rem 0rem 0rem 6rem;
   }
 
-  .assistances{
-
+  .assistances {
     display: flex;
     flex-direction: column;
     margin: 1rem 0rem 0rem 6rem;
   }
-
 }
