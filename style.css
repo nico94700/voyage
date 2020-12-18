@@ -1,0 +1,1258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.entete {
+  display: flex;
+  flex-direction: column;
+}
+.entete img {
+  width: 15%;
+  display: flex;
+  margin: 10px 0px -18px 32px;
+}
+
+.entete h1 {
+  display: flex;
+  padding: 2rem 45rem 0rem 0rem;
+  margin: auto;
+}
+.entete p {
+  display: flex;
+  margin: auto;
+  padding: 1rem 74rem 1rem 0rem;
+}
+.position {
+  display: flex;
+  align-items: center;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1rem 0rem 2rem;
+  width: 40rem;
+}
+
+.champs {
+  width: 25rem;
+  display: flex;
+  height: 62px;
+  margin: 14px 0px 1px 80px;
+  border: solid 1px #f2f2f2;
+}
+
+.bouton {
+  display: flex;
+  background: #0065fc;
+  margin: -65px -6px -2px 480px;
+  height: 4rem;
+  border-radius: 0px 23px 27px 1px;
+
+  color: white;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1rem 0rem 2rem;
+  width: 40rem;
+}
+
+.formulaire i {
+  background: #f2f2f2;
+
+  margin: 23px 0px -78px 2px;
+  border-radius: 10px 0px 0px 10px;
+  width: 0px;
+  font-size: 17px;
+
+  padding: 25px 46px 23px 31px;
+}
+
+.filtres {
+  display: flex;
+}
+.filtres h2 {
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 2rem 5rem 0rem 1rem;
+}
+
+.filtre-1 {
+  display: flex;
+
+  margin: 4rem 1rem 2rem 1rem;
+  border: solid 2px #f2f2f2;
+  border-radius: 999px;
+  width: 15rem;
+  height: 3rem;
+}
+
+.filtre-1 i {
+  margin: 0rem 2rem 0rem 0rem;
+  border-radius: 999px;
+  width: 18px;
+  font-size: 17px;
+  height: 32px;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: #deebff;
+  color: #0065fc;
+}
+
+.filtres button {
+  width: 6rem;
+  border-radius: 999px;
+  background-color: white;
+  border: none;
+}
+
+.filtre-2 {
+  margin: 4rem 1rem 2rem 1rem;
+  border: solid 2px #f2f2f2;
+  border-radius: 999px;
+  width: 15rem;
+  height: 3rem;
+}
+
+.filtre-2 i {
+  margin: 0rem 2rem 0rem 0rem;
+  border-radius: 999px;
+  width: 18px;
+  font-size: 17px;
+  height: 32px;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: #deebff;
+  color: #0065fc;
+}
+
+.filtres button {
+  width: 6rem;
+  border-radius: 999px;
+  background-color: white;
+  border: none;
+}
+
+.filtre-3 {
+  margin: 4rem 1rem 2rem 1rem;
+  border: solid 2px #f2f2f2;
+  border-radius: 999px;
+  width: 15rem;
+  height: 3rem;
+}
+
+.filtre-3 i {
+  margin: 0rem 2rem 0rem 0rem;
+  border-radius: 999px;
+  width: 18px;
+  font-size: 17px;
+  height: 32px;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: #deebff;
+  color: #0065fc;
+}
+.filtres button {
+  width: 6rem;
+  border-radius: 999px;
+  background-color: white;
+  border: none;
+}
+
+.filtre-4 {
+  margin: 4rem 1rem 2rem 1rem;
+  border: solid 2px #f2f2f2;
+  border-radius: 999px;
+  width: 15rem;
+  height: 3rem;
+}
+
+.filtre-4 i {
+  margin: 0rem 2rem 0rem 0rem;
+  border-radius: 999px;
+  width: 18px;
+  font-size: 17px;
+  height: 32px;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: #deebff;
+  color: #0065fc;
+}
+.filtres button {
+  width: 6rem;
+  border-radius: 999px;
+  background-color: white;
+  border: none;
+}
+
+/************************************ Partie hebergement à Marseille*******************************************/
+
+#hebergement-mar {
+  display: flex;
+}
+
+.herber-mar {
+  background-color: #f2f2f2;
+  width: 50rem;
+  margin: 2rem 0rem 0rem 2rem;
+  height: 41rem;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.herber-mar a{
+
+  text-decoration: none;
+  color: black;
+}
+
+.herber-mar h2 {
+  display: flex;
+  margin: 2rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 3rem;
+}
+
+.auberge {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: 14rem;
+  margin: 1rem 0rem 0rem 2rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 5px 10px -5px gray;
+}
+
+.auberge img {
+  width: 98%;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  height: 137px;
+  padding: 2px 0px 7px 3px;
+ transition: 1s ease-in-out;
+ 
+ 
+}
+.auberge img:hover {
+-webkit-transform: scale(1);
+transform: scale(1);
+height: 64%;
+border-radius: 20px 20px 20px 20px;
+width: 100%;
+margin: -2px 0px 60px -3px;
+ 
+  
+}
+
+.auberge h2 {
+  display: flex;
+  margin: 0rem 0rem 0rem -2rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+.auberge p {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.etoile-1 {
+  display: flex;
+  margin: 6px 14px;
+  color: #0065fc;
+}
+
+.far {
+  color: gray;
+}
+
+.hotel-port {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: 14rem;
+  margin: -14rem 0rem 2rem 18rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 5px 10px -5px gray;
+  
+}
+
+.hotel-port img {
+  width: 98%;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  height: 137px;
+  padding: 2px 0px 7px 3px;
+  transition: 1s ease-in-out;
+}
+
+.hotel-port img:hover {
+ -webkit-transform: scale(1.3);
+ transform: scale(1);
+ height: 81%;
+ border-radius: 20px 20px 20px 20px;
+ width: 100%;
+ margin: -3px 0px 31px -3px;
+      
+
+}
+
+.hotel-port h2 {
+  display: flex;
+  margin: 0rem 0rem 0rem -2rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+.hotel-port p {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.etoile-2 {
+  display: flex;
+  margin: 6px 14px;
+  color: #0065fc;
+}
+
+.mouette {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: 14rem;
+  margin: -16rem 0rem 3rem 34rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 5px 10px -5px gray;
+}
+
+.mouette img {
+  width: 98%;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  height: 137px;
+  padding: 2px 0px 7px 3px;
+  transition: 1s ease-in-out;
+}
+.mouette img:hover {
+-webkit-transform: scale(1);
+transform: scale(1);
+height: 92%;
+border-radius: 20px 20px 20px 20px;
+width: 100%;
+margin: -3px 0px 20px -3px;
+
+}
+
+.mouette h2 {
+  display: flex;
+  margin: 0rem 0rem 0rem -2rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+.mouette p {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.etoile-3 {
+  display: flex;
+  margin: 6px 14px;
+  color: #0065fc;
+}
+
+.mers {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: 14rem;
+  margin: -1rem 0rem 17rem 2rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 5px 10px -5px gray;
+}
+.mers img {
+ 
+   width: 98%;
+   display: flex;
+   border-radius: 20px 20px 0px 0px;
+   height: 137px;
+   padding: 2px 0px 7px 3px;
+   transition: 1s ease-in-out;
+  
+}
+
+.mers img:hover {
+-webkit-transform: scale(1);
+transform: scale(1);
+height: 85%;
+border-radius: 20px 20px 20px 20px;
+width: 100%;
+margin: -23px 0px 21px -3px;
+}
+
+.mers h2 {
+  display: flex;
+  margin: 0rem 0rem 0rem -2rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+.mers p {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.etoile-4 {
+  display: flex;
+  margin: 6px 14px;
+  color: #0065fc;
+}
+
+.panier {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: 14rem;
+  margin: -31rem 0rem 18rem 18rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 5px 10px -5px gray;
+}
+.panier img {
+  width: 98%;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  height: 137px;
+  padding: 2px 0px 7px 3px;
+  transition: 1s ease-in-out;
+}
+.panier img:hover {
+-webkit-transform: scale(1);
+transform: scale(1);
+height: 85%;
+border-radius: 20px 20px 20px 20px;
+width: 100%;
+margin: -23px 0px 21px -3px;
+  
+}
+.panier h2 {
+  display: flex;
+  margin: 0rem 0rem 0rem -2rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+.panier p {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.etoile-5 {
+  display: flex;
+  margin: 6px 14px;
+  color: #0065fc;
+}
+
+.amina {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 14rem;
+  height: 14rem;
+  margin: -32rem 0rem 0rem 34rem;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 5px 10px -5px gray;
+}
+.amina img {
+  width: 98%;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+  height: 137px;
+  padding: 2px 0px 7px 3px;
+  transition: 1s ease-in-out;
+}
+
+.amina img:hover {
+-webkit-transform: scale(1);
+transform: scale(1);
+height: 85%;
+border-radius: 20px 20px 20px 20px;
+width: 100%;
+margin: -23px 0px 21px -3px;
+}
+.amina h2 {
+  display: flex;
+  margin: 0rem 0rem 0rem -2rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.amina p {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.etoile-6 {
+  display: flex;
+  margin: 6px 14px;
+  color: #0065fc;
+}
+
+.autres {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem -32rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.autres a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  width: 9rem;
+}
+
+/********************Partie Activités à Marseille*********************/
+
+#activite {
+  display: flex;
+  flex-direction: column;
+}
+
+#activite h2 {
+  display: flex;
+  padding: 3rem 3rem;
+}
+
+.vieux-port {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin: -1rem 2rem;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 2px 5px 10px -5px gray;
+  height: 32rem;
+}
+
+.vieux-port img {
+  display: flex;
+  height: 29rem;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.vieux-port p {
+  display: flex;
+  padding: 1rem 0rem 5rem 1rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.fort {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin: -66vh 54vh;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 2px 5px 10px -5px gray;
+  height: 16rem;
+}
+
+.fort img {
+  display: flex;
+  height: 13rem;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.fort p {
+  display: flex;
+  padding: 1rem 0rem 5rem 1rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.ile {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin: 33rem 25rem;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 2px 5px 10px -5px gray;
+  height: 14rem;
+}
+
+.ile img {
+  display: flex;
+  height: 11rem;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.ile p {
+  display: flex;
+  padding: 1rem 0rem 5rem 1rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.calanque {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin: -65rem 49rem;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 2px 5px 10px -5px gray;
+}
+
+.calanque img {
+  display: flex;
+  height: 29rem;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.calanque p {
+  display: flex;
+
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  height: 2rem;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.notre-dame {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin: 70vh 155vh;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 2px 5px 10px -5px gray;
+  height: 16rem;
+}
+
+.notre-dame img {
+  display: flex;
+  height: 13rem;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.notre-dame p {
+  display: flex;
+  padding: 1rem 0rem 5rem 1rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.parc {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20rem;
+  margin: -66vh 156vh;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 2px 5px 10px -5px gray;
+  height: 14rem;
+}
+
+.parc img {
+  display: flex;
+  height: 11rem;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.parc p {
+  display: flex;
+  padding: 1rem 0rem 5rem 1rem;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+#populaires {
+  display: flex;
+}
+
+.header-populaire {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  height: 41rem;
+  width: 30rem;
+  margin: -104vh 0vh 0vh 119vh;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.header-populaire h2 {
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.soleil-matin {
+  display: flex;
+  background-color: white;
+  width: 27rem;
+  margin: 0rem 0rem 0rem 1rem;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.soleil-matin img {
+  display: flex;
+  box-shadow: 2px 5px 10px -5px gray;
+  width: 14rem;
+  margin: 5px 18px 5px 5px;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.soleil-matin h2 {
+  display: flex;
+  margin: -1rem -7rem 0rem -2rem;
+  font-size: 16px;
+  height: auto;
+}
+
+.soleil-matin p {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0rem 2rem -5rem;
+}
+
+.etoile-7 {
+  display: flex;
+  margin: 8rem 0rem 0rem -8rem;
+  color: #0065fc;
+}
+
+.hotes {
+  display: flex;
+  background-color: white;
+  width: 27rem;
+  margin: 1rem 0rem -1rem 1rem;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.hotes img {
+  display: flex;
+  box-shadow: 2px 5px 10px -5px gray;
+  width: 14rem;
+  margin: 4px 18px 5px 5px;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.hotes h2 {
+  display: flex;
+  margin: -21px -87px 0px -29px;
+  font-size: 16px;
+  height: auto;
+}
+
+.hotes p {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0rem 0rem -4rem;
+}
+
+.etoile-8 {
+  display: flex;
+  margin: 8rem 0rem 0rem -8rem;
+  color: #0065fc;
+}
+
+.hotel-b-b {
+  display: flex;
+  background-color: white;
+  width: 27rem;
+  margin: 2rem 0rem 0rem 1rem;
+  border-radius: 30px 30px 30px 30px;
+  height: 11rem;
+}
+
+.hotel-b-b img {
+  display: flex;
+  box-shadow: 2px 5px 10px -5px gray;
+  width: 14rem;
+  margin: 5px 18px 5px 5px;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.hotel-b-b h2 {
+  display: flex;
+  margin: -1rem -7rem 0rem -2rem;
+  font-size: 16px;
+  height: auto;
+}
+
+.hotel-b-b p {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0rem 2rem -5rem;
+}
+
+.etoile-9 {
+  display: flex;
+  margin: 8rem 0rem 0rem -8rem;
+  color: #0065fc;
+}
+
+/********************Partie FOOTER**********************/
+
+.foot{
+
+  display: flex;
+  background-color: #f2f2f2;
+  margin: 34rem 0rem 0rem 0rem;
+  height: 13rem;
+  font-family: "Open Sans",
+  sans-serif;
+
+}
+
+.a-propos{
+display: flex;
+flex-direction: column;
+margin: 30px 0px 0px 41px;
+
+
+}
+
+.a-propos p{
+padding: 1rem 0rem 0rem 0rem;
+line-height: 40px;
+
+}
+
+.hebergements {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 0px 170px;
+
+
+}
+
+.hebergements p {
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 40px;
+
+}
+
+.assistances {
+ display: flex;
+ flex-direction: column;
+ margin: 34px 0px 0px 223px;
+
+
+}
+
+.assistances p {
+  padding: 1rem 0rem 0rem 0rem;
+  line-height: 40px;
+
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+ 
+  .entete{
+
+display: flex;
+flex-direction: column;
+margin: auto;
+  }
+
+  .entete img,h1,p{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    
+  }
+
+  .position{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+  }
+
+  .formulaire{
+
+    display: flex;
+    margin: auto;
+
+  }
+
+  .formulaire i{
+
+    display: flex;
+    margin: 1rem 0rem -4rem 1rem;
+    ;
+  }
+
+  .champs{
+
+   display: flex;
+   margin: -1px 10px 9px 92px;
+   width: 242px;
+  }
+
+  .bouton{
+
+    display: flex;
+    margin: -74px 0px 12px 286px;
+    width: 5rem;
+  }
+
+  .filtres{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    
+    line-height: 0rem;
+    
+  }
+
+  .filtre-1{
+display: flex;
+margin: 35px 0px -40px 16px;
+
+  }
+  .filtre-2{
+    display: flex;
+    margin: 60px 0px -40px 16px;
+  }
+
+  .filtre-3{
+
+    margin: 60px 0px -40px 16px;
+    display: flex;
+  }
+
+  #herbergement-mar{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .herber-mar{
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 26rem;
+height: 107rem;
+
+  }
+
+  .auberge{
+display: flex;
+flex-direction: column;
+margin: 2rem 0rem 0rem 6rem;
+
+  }
+  .hotel-port{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 0rem 6rem;
+  }
+
+  .mouette{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 0rem 6rem;
+  }
+  
+  .mers{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 0rem 6rem;
+  }
+
+  .panier{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 0rem 6rem;
+  }
+
+  .amina{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 0rem 6rem;
+  }
+
+  #activite h2{
+
+   margin: -1rem 0rem 2rem 2rem;
+  }
+
+  .vieux-port{
+display: flex;
+margin: -55px 55px;
+width: 71%;
+height: 15rem;
+
+  }
+
+.vieux-port img{
+display: flex;
+flex-direction: column;
+
+width: 100%;
+height: 75%;
+
+}
+
+.vieux-port p{
+
+  padding: 1rem 0rem 5rem 5rem;
+}
+
+.fort{
+display: flex;
+margin: 90px 55px;
+width: 71%;
+height: 15rem;
+
+}
+
+.fort img{
+
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 75%;
+}
+  .fort p{
+
+   padding: 1rem 0rem 1rem 4rem;
+  }
+
+  .ile{
+display: flex;
+margin: -50px 62px;
+width: 71%;
+height: 15rem;
+
+
+  }
+
+  .ile img{
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 100%;
+height: 75%;
+
+  }
+
+  .ile p{
+
+    padding: 1rem 0rem 1rem 4rem;
+  }
+
+  .calanque{
+display: flex;
+margin: 74px 66px;
+width: 71%;
+height: 15rem;
+
+  }
+
+  .calanque img {
+
+    height: auto;
+  }
+
+  .notre-dame{
+
+        display: flex;
+        margin: -50px 62px;
+        width: 71%;
+        height: 16rem;
+  }
+
+  .parc{
+
+    display: flex;
+    margin: 74px 66px;
+    width: 71%;
+    height: 16rem;
+
+  }
+
+  #populaires{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+
+  .header-populaire{
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 100%;
+
+
+  }
+
+  .soleil-matin{
+
+display: flex;
+width: 100%;
+margin: auto;
+
+  }
+
+.soleil-matin h2{
+
+  margin: -30px -130px 0px -40px;
+}
+
+.soleil-matin p{
+
+  padding: 8px 0px 0px 70px;
+}
+
+
+.etoile-7{
+
+  margin: 130px 50px 10px -240px;
+  display: flex;
+}
+
+
+.hotes {
+
+  display: flex;
+  width: 100%;
+  margin: auto;
+
+}
+
+.hotes h2 {
+
+  margin: -30px -130px 0px -40px;
+}
+
+.hotes p {
+
+  padding: 8px 0px 0px 70px;
+}
+
+
+.etoile-8 {
+
+  margin: 130px 50px 10px -240px;
+  display: flex;
+}
+
+.hotel-b-b {
+
+  display: flex;
+  width: 100%;
+  margin: auto;
+
+}
+
+.hotel-b-b h2 {
+
+  margin: -31px -130px 0px -42px;
+}
+
+.hotel-b-b p {
+
+  padding: 20px 0px 0px 55px;
+  }
+}
+
+
+.etoile-9 {
+
+  margin: 130px 50px 10px -240px;
+  display: flex;
+}
+
+.hotel-b-b {
+
+  display: flex;
+  width: 100%;
+  margin: auto;
+
+}
+
+.hotel-b-b h2 {
+
+  margin: -30px -130px 0px -40px;
+}
+
+.hotel-b-b p {
+
+  padding: 8px 0px 0px 70px;
+}
+
+
+.etoile-9 {
+
+  margin: 130px 50px 10px -240px;
+  display: flex;
+}
+
+
+
+  .foot{
+display: flex;
+flex-direction: column;
+margin: 4rem 0rem 0rem 0rem;
+height: 34rem;
+
+width: auto;
+
+  }
+
+  .a-propos{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem 0rem 6rem;
+  }
+
+  .hebergements{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem 0rem 6rem;
+  }
+
+  .assistances{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem 0rem 6rem;
+  }
+
+
+  }
